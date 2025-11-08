@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "./hooks/useScrollAnimation";
-import { db } from "../lib/firebase";
+import { db } from "@/lib/firebase";
 import Swal from "sweetalert2";
 import {
   collection,

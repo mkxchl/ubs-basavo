@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
-import { db, auth } from "../../../lib/firebase";
+import { db, auth } from "@/lib/firebase";
 import {
   collection,
   getDocs,
